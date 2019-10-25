@@ -1,4 +1,4 @@
-SVG = philosophers-princess-bride.svg
+SVG = emma-watson-wandless.svg
 PNG = $(SVG).png
 JPEG = $(SVG).jpg
 
