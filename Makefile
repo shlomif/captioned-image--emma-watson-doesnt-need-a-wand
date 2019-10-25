@@ -7,9 +7,9 @@ PHOTO_DEST = $(PHOTO_BASE).jpg
 
 WIDTH = 400
 
-all: $(PNG) $(JPEG)
+all: $(PNG) $(JPEG) $(PHOTO_DEST)
 
-$(PNG): $(SVG)
+$(PNG): $(SVG) $(PHOTO_DEST)
 	inkscape --export-png=$@ --export-width=400 $<
 	optipng $@
 
