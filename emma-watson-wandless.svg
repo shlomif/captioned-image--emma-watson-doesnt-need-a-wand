@@ -7,10 +7,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="2565.7957"
+   height="804.19995"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -28,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.53308643"
-     inkscape:cx="1283.0076"
-     inkscape:cy="502.13873"
+     inkscape:cx="877.86025"
+     inkscape:cy="548.80318"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,28 +56,42 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-570.22375,-322.65566)">
+    <image
+       sodipodi:absref="/home/shlomif/Docs/Images/Captioned-Images/Emma-Watson-doesnt-need-a-wand/d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8.jpg"
+       xlink:href="d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8.jpg"
+       width="3413.3333"
+       height="1920"
+       preserveAspectRatio="none"
+       id="image860"
+       x="-205.97189"
+       y="-290.31497" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:200px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="118.17971"
-       y="240.11116"
-       id="text4601"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:200px;font-family:'Blue Highway';-inkscape-font-specification:'Blue Highway';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="266.37335"
+       y="181.95924"
+       id="text881"><tspan
          sodipodi:role="line"
-         x="118.17971"
-         y="240.11116"
-         id="tspan4613">I played Hermione</tspan><tspan
+         id="tspan879"
+         x="266.37335"
+         y="181.95924">I played Hermione</tspan><tspan
          sodipodi:role="line"
-         x="118.17971"
-         y="440.11115"
-         id="tspan4605">in the HarryPotters</tspan><tspan
+         x="266.37335"
+         y="381.95923"
+         id="tspan883">in the Harry Potters,</tspan><tspan
          sodipodi:role="line"
-         x="118.17971"
-         y="640.11115"
-         id="tspan4607">but  don't need a</tspan><tspan
+         x="266.37335"
+         y="581.95923"
+         id="tspan885">but I don't need a</tspan><tspan
          sodipodi:role="line"
-         x="118.17971"
-         y="840.11115"
-         id="tspan4609">wand to kick your ass</tspan></text>
+         x="266.37335"
+         y="781.95923"
+         id="tspan887">wand to kick your ass</tspan><tspan
+         sodipodi:role="line"
+         x="266.37335"
+         y="981.95923"
+         id="tspan889" /></text>
   </g>
 </svg>
