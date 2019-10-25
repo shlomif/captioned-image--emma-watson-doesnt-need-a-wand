@@ -1,0 +1,17 @@
+=encoding utf8
+
+=head1 Captioned Image - “Emma Watson played Hermione in the Harry Potter Films but she doesn't need a wand to kick your ass.
+
+=head2 About
+
+This repository contains the sources for a captioned image. To view or
+edit it type:
+
+    inkscape ./emma-watson-wandless.svg
+
+=head2 Creator
+
+L<https://www.shlomifish.org/> - Shlomi Fish.
+
+=cut
+

@@ -1,0 +1,17 @@
+Captioned Image - Emma Watson needs no wand
+======================
+
+[id="about"]
+About:
+------
+
+This repository contains the sources for a captioned image. To view or
+edit it type:
+
+    inkscape ./emma-watson-wandless.svg
+
+[id="creators"]
+Creator:
+--------
+
+https://www.shlomifish.org/[Shlomi Fish].
