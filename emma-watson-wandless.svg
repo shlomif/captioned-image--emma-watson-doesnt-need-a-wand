@@ -29,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.26654322"
-     inkscape:cx="2951.1224"
-     inkscape:cy="1021.6187"
+     inkscape:cx="2197.0233"
+     inkscape:cy="1006.6118"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,12 +65,12 @@
     <image
        sodipodi:absref="/home/shlomif/Docs/Images/Captioned-Images/Emma-Watson-doesnt-need-a-wand/d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8.jpg"
        xlink:href="d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8.jpg"
-       y="-290.31497"
-       x="-205.97189"
-       id="image860"
+       width="3413.3333"
+       height="1569.3318"
        preserveAspectRatio="none"
-       height="1920"
-       width="3413.3333" />
+       id="image860"
+       x="-205.97189"
+       y="-290.31497" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:200px;font-family:'Blue Highway';-inkscape-font-specification:'Blue Highway';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:3.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
@@ -104,18 +104,34 @@
     <g
        id="g839"
        transform="translate(0,16)"
-       style="stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1">
+       style="stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:#007100;fill-opacity:1">
       <text
          id="text826"
          y="1191.6732"
          x="746.91656"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:207.9680481px;line-height:155.9760437px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:207.9680481px;line-height:155.9760437px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#007100;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:207.9680481px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:207.9680481px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:#007100;fill-opacity:1"
            y="1191.6732"
            x="746.91656"
            id="tspan824"
            sodipodi:role="line">#SelinaMandrake</tspan></text>
+    </g>
+    <g
+       style="stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:#007100;fill-opacity:1"
+       transform="translate(0,16)"
+       id="g827">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:207.9680481px;line-height:155.9760437px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#007100;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         x="746.91656"
+         y="1191.6732"
+         id="text825"><tspan
+           sodipodi:role="line"
+           id="tspan823"
+           x="746.91656"
+           y="1191.6732"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:207.9680481px;font-family:'Bitstream Vera Sans Mono';-inkscape-font-specification:'Bitstream Vera Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:#007100;fill-opacity:1">#SelinaMandrake</tspan></text>
     </g>
   </g>
 </svg>
