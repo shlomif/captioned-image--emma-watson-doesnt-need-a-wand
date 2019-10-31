@@ -1,6 +1,9 @@
-Captioned Image - Emma Watson needs no wand
-======================
+Captioned Image - Emma Watson doesn't need a wand to kick your ass
+==================================================================
 
+[id="preview"]
+Preview:
+--------
 
 image::./emma-watson-wandless.svg.webp[Emma Watson doesn't need a wand to kick your ass]
 
@@ -14,6 +17,7 @@ edit it type:
     inkscape ./emma-watson-wandless.svg
 
 To build everything use [GNU make](https://www.gnu.org/software/make/) .
+
 [id="creators"]
 Creator:
 --------
