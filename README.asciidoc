@@ -16,7 +16,7 @@ edit it type:
 
     inkscape ./emma-watson-wandless.svg
 
-To build everything use [GNU make](https://www.gnu.org/software/make/) .
+To build everything use https://www.gnu.org/software/make/[GNU make] .
 
 [id="creators"]
 Creator:
