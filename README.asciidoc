@@ -18,8 +18,23 @@ edit it type:
 
 To build everything use https://www.gnu.org/software/make/[GNU make] .
 
+The “#SelinaMandrake” hash tag is a reference to the informal screenplay
+https://www.shlomifish.org/humour/Selina-Mandrake/[Seline Mandrake - The Slayer]
+where I want Ms. Watson to https://www.shlomifish.org/humour/Selina-Mandrake/cast.html#selina[play the leading role (of Selina)]
+and where she is able to slay (or kick the ass of) all the demons without using
+a wand or any other form of violence.
+
 [id="creators"]
 Creator:
 --------
 
 https://www.shlomifish.org/[Shlomi Fish].
+
+[id="links"]
+Links:
+------
+
+* https://twitter.com/EmmaWatson[@EmmaWatson on Twitter]
+* https://www.shlomifish.org/humour/Muppets-Show-TNI/Harry-Potter.html[Harry Potter, Hermione, and JK Rowling on Sesame Street fan fic]
+* https://www.shlomifish.org/humour/bits/facts/Emma-Watson/[Emma Watson "Facts"] a la Chuck Norris facts.
+* https://www.shlomifish.org/humour/bits/Emma-Watson-applying-for-a-software-dev-job/[Emma Watson getting interviewed for a software developer job]
