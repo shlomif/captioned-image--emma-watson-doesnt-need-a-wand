@@ -7,6 +7,12 @@ Preview:
 
 image::./emma-watson-wandless.svg.webp[Emma Watson doesn't need a wand to kick your ass]
 
+[id="preview-3rd-person"]
+3rd Person Version:
+~~~~~~~~~~~~~~~~~~~
+
+image::./emma-watson-wandless--3rd-tense.svg.webp[Emma Watson doesn't need a wand to kick your ass (third person version)]
+
 [id="about"]
 About:
 ------
