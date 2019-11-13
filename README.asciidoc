@@ -5,6 +5,10 @@ Captioned Image - Emma Watson doesn't need a wand to kick your ass
 Preview:
 --------
 
+[id="preview-1st-person"]
+1st Person Version:
+~~~~~~~~~~~~~~~~~~~
+
 image::./emma-watson-wandless.svg.webp[Emma Watson doesn't need a wand to kick your ass]
 
 [id="preview-3rd-person"]
