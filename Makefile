@@ -17,13 +17,13 @@ PHOTO_BASE = d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8
 PHOTO_INTERIM1 = $(PHOTO_BASE)-step1.png
 PHOTO_DEST = $(PHOTO_BASE).jpg
 
-WIDTH = 400
+WIDTH = 600
 
 all: $(PNG) $(JPEG) $(WEBP) $(PHOTO_DEST) $(THIRD_PERSON_PNG) $(THIRD_PERSON_WEBP) $(THIRD_PERSON_JPEG) $(THIRD_PERSON_PNG)
 all: $(NOBRANDING_PERSON_PNG) $(NOBRANDING_PERSON_WEBP) $(NOBRANDING_PERSON_JPEG) $(NOBRANDING_PERSON_PNG)
 
 $(PNG): $(SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=800 $<
+	inkscape --export-png=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(WEBP): $(PNG)
@@ -33,7 +33,7 @@ $(JPEG): $(PNG)
 	gm convert $< $@
 
 $(THIRD_PERSON_PNG): $(THIRD_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=800 $<
+	inkscape --export-png=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(THIRD_PERSON_WEBP): $(THIRD_PERSON_PNG)
@@ -43,7 +43,7 @@ $(THIRD_PERSON_JPEG): $(THIRD_PERSON_PNG)
 	gm convert $< $@
 
 $(NOBRANDING_PERSON_PNG): $(NOBRANDING_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=800 $<
+	inkscape --export-png=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(NOBRANDING_PERSON_WEBP): $(NOBRANDING_PERSON_PNG)
@@ -57,6 +57,9 @@ $(PHOTO_INTERIM1): $(PHOTO_BASE).webp
 
 $(PHOTO_DEST): $(PHOTO_INTERIM1)
 	gm convert $< $@
+
+clean:
+	rm -f emma-*.png emma-*.jpg emma-*.webp
 
 # upload: all
 #	rsync --progress -v -a --inplace human-hacking-field-guide-logo.svg hhfg-ad.svg hhfg-ad.svg.png $(__HOMEPAGE_REMOTE_PATH)/hhfg-graphics-demo/
