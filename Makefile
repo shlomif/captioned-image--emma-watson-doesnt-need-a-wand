@@ -13,10 +13,12 @@ NOBRANDING_PERSON_PNG = $(NOBRANDING_PERSON_SVG).png
 NOBRANDING_PERSON_JPEG = $(NOBRANDING_PERSON_SVG).jpg
 NOBRANDING_PERSON_WEBP = $(NOBRANDING_PERSON_SVG).webp
 
+DPI = 72
 SHIRT_SVG = emma-watson-wandless--3rd-tense--a4-shirt.svg
-SHIRT_PNG = $(SHIRT_SVG).png
-SHIRT_JPEG = $(SHIRT_SVG).jpg
-SHIRT_WEBP = $(SHIRT_SVG).webp
+SHIRT_SVG_EXP_BASE = $(SHIRT_SVG)--$(DPI)dpi
+SHIRT_PNG = $(SHIRT_SVG_EXP_BASE).png
+SHIRT_JPEG = $(SHIRT_SVG_EXP_BASE).jpg
+SHIRT_WEBP = $(SHIRT_SVG_EXP_BASE).webp
 
 PHOTO_BASE = d5au0ao-20c1308d-c41b-4723-b561-ad7a6dade3a8
 PHOTO_INTERIM1 = $(PHOTO_BASE)-step1.png
@@ -39,7 +41,7 @@ $(JPEG): $(PNG)
 	gm convert $< $@
 
 $(SHIRT_PNG): $(SHIRT_SVG) $(PHOTO_DEST)
-	inkscape --export-type=png --export-filename=$@ --export-dpi=72 --export-area-page $<
+	inkscape --export-type=png --export-filename=$@ --export-dpi=$(DPI) --export-area-page $<
 	optipng $@
 
 $(THIRD_PERSON_PNG): $(THIRD_PERSON_SVG) $(PHOTO_DEST)
@@ -73,6 +75,9 @@ clean:
 
 viewshirt: $(SHIRT_PNG)
 	gwenview $<
+
+upload_shirt: $(SHIRT_PNG)
+	sky -x up $<
 
 # upload: all
 #	rsync --progress -v -a --inplace human-hacking-field-guide-logo.svg hhfg-ad.svg hhfg-ad.svg.png $(__HOMEPAGE_REMOTE_PATH)/hhfg-graphics-demo/
