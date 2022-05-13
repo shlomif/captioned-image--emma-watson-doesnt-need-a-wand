@@ -15,7 +15,7 @@ image::./emma-watson-wandless.svg.webp[Emma Watson doesn't need a wand to kick y
 3rd Person Version:
 ~~~~~~~~~~~~~~~~~~~
 
-image::./emma-watson-wandless--3rd-tense--a4-shirt.svg--width.webp[Emma Watson doesn't need a wand to kick your ass (third person version)]
+image::./emma-watson-wandless--3rd-tense--a4-shirt-like--width.webp[Emma Watson doesn't need a wand to kick your ass (third person version)]
 
 [id="about"]
 About:
