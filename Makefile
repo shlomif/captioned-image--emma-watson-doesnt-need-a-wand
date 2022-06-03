@@ -45,7 +45,7 @@ all: $(WIDTH_SHIRT_PNG)
 all: $(WIDTH_SHIRT_WEBP)
 
 $(PNG): $(SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-type=png --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(WEBP): $(PNG)
@@ -59,7 +59,7 @@ $(SHIRT_PNG): $(SHIRT_SVG) $(PHOTO_DEST)
 	optipng $@
 
 $(THIRD_PERSON_PNG): $(THIRD_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-type=png --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(THIRD_PERSON_WEBP): $(THIRD_PERSON_PNG)
@@ -83,7 +83,7 @@ $(WIDTH_SHIRT_WEBP): $(WIDTH_SHIRT_PNG)
 	gm convert $< $@
 
 $(NOBRANDING_PERSON_PNG): $(NOBRANDING_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-type=png --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(NOBRANDING_PERSON_WEBP): $(NOBRANDING_PERSON_PNG)
